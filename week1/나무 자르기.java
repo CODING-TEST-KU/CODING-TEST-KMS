@@ -35,12 +35,12 @@ class Main {
 
         }
 
-        System.out.println(start-1);
+        System.out.println(start-1); // <- 이진탐색은 mid가 정답인 경우 return으로 바로 종료하여서 mid로 했었는데, 조건을 만족하는 최댓값/최솟값 찾아야 하므로, start - 1 또는 end가 정답
 
     }
 
     private static long calculateWood(long cutter){
-        long sum =0;
+        long sum =0; // <- 나머지는 다 long으로 하다가 여기서 int로 해서 자꾸 틀렸었음
         for(int i=0; i<N; i++){
             //나무가 절단기보다 클 경우만 sum에 추가를 함. 아니면 음수가 추가될 수 있기 때문에
             if(woods[i]>cutter){

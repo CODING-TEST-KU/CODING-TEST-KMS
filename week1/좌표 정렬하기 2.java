@@ -2,6 +2,8 @@
 // https://www.acmicpc.net/problem/11651
 // 정렬
 
+//2차원 배열 정렬 연습하기 좋은듯. Arrays.sort를 이용하여 정렬 조건이 여러개 일때 어떤 기준으로 정렬할지 직접 구현해보기 좋음.
+
 import java.io.*;
 import java.util.*;
 
